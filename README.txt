@@ -1,0 +1,1 @@
+The backend is confirmed working: debugTests returned 2 rows. Replace the listed frontend files, then Ctrl+F5. The page MUST display 'Frontend version: 20260902-LOADING-FIX'. If not, old files/wrong GitHub Pages source are being served.

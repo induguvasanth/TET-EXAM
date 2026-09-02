@@ -1,0 +1,1 @@
+const $=id=>document.getElementById(id);$("load").onclick=async()=>{try{const d=await apiPost({action:"adminGetResults",token:$("token").value});$("out").textContent=JSON.stringify(d.results,null,2)}catch(e){$("out").textContent=e.message}};

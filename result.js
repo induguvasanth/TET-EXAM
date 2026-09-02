@@ -1,0 +1,1 @@
+const r=JSON.parse(sessionStorage.getItem("tetResult")||"null");document.getElementById("result").innerHTML=r?`<h2>Score: ${r.score} / ${r.totalMarks}</h2><p>Answered: ${r.answered}</p><p>Correct: ${r.correct}</p><p>Wrong: ${r.wrong}</p><p>Skipped: ${r.skipped}</p><p>Percentage: ${r.percentage}%</p>`:"No result found.";
